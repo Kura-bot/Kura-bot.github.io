@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kura-bot.github.io
+Token: 164c4f73eab4ec4b094564f276b1be5b7db475a5886874737276c133218ad1de
