@@ -1,0 +1,36 @@
+/* Hide */
+/* 'Who I'd like to meet' & 'SpaceHey URL:'*/
+.profile .blurbs .section:nth-child(2), .url-info { display:none;}
+/* 'Books' from Interests table */
+div.table-section:nth-child(6) > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(5),
+div.table-section:nth-child(7) > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(5) {display: none;}
+/* Borders for contact and tables*/
+.profile .contact, .profile .table-section {
+    border: transparent;}
+
+
+
+/* Edits */    
+/* Rounded corners on profile pic */
+.profile-pic {
+    border-radius: 40%;
+    overflow: hidden;}
+
+/* Background Image */
+body {
+    background:url("https://raw.githubusercontent.com/Kura-bot/Kura-bot.github.io/main/media/background.jpg") no-repeat fixed; 
+    background-size:cover;}
+
+
+
+/* Colors */
+/* Background of page (i.e. left and right of profile) */
+    body, main, .profile .table-section .details-table td {
+    background-color: #fdeed3;
+    opacity: 95%;}
+/* headings and Spacehey footer*/
+.heading, footer { 
+    background-color: #ffaa9b !important; /* ADJUST BACKGROUND COLOR OF HEADINGS*/
+    color: black !important; /* FONT COLOR */
+    text-align: center;
+ }
