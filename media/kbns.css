@@ -15,10 +15,7 @@ a:hover {
 blockquote {
     border-left: 5px solid #8a4b2a;
     border-radius: 7px;
-    /* background-color: #e6bcbc; */
     background-color: #f3a293;
-    margin: 1em 15px;
-    padding: 0.3em 5px; 
 }
 
 code {
@@ -27,8 +24,4 @@ code {
 
 h1, h2, hr {
     border-bottom: 1px solid #f3a293;
-}
-
-pre code {
-    padding: 0.5em 5px;    
 }
